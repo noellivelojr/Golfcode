@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Arvo;
+    src: url(../font/Arvo.ttf);
+}
+
+* body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom right, #070707d4, rgba(0, 0, 0, 0.796),rgba(0, 0, 0, 0.775)),url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(to bottom right, #07070782, rgba(0, 0, 0, 0.796),rgba(0, 0, 0, 0.631)),url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+}
+.golf{
+    width: 320px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.344);
+    margin:0 auto;
+    top: 27%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0, 4px, 8px, 0 rgba(0, 0, 0, 0.2), 0, 6px, 20px, 0 rgba(0, 0, 0, 0.19);
+}
+#par{
+    margin-left: 22px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+#stroke{
+    margin-left: 6px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.501);
+    margin-bottom: 13px;
+}
+#title{
+    font-family: Arvo;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+.golf p{
+    font-family: Arvo;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+#bt{
+    position: relative;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    background-color:  rgba(74, 243, 65, 0.719);;
+    color: black;
+    width: 60px;
+    height: 20px;
+    border: 1px solid rgba(74, 243, 65, 0.719);
+    font-family: Arvo;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: .6s;
+    overflow: hidden;
+}
+#bt:hover{
+    border: 1px rgba(0, 217, 255, 0.727);
+    background: rgba(0, 217, 255, 0.727);
+    cursor: pointer;
+}
+#bt:hover::after{
+    transform: translate(150px) skew(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
